@@ -45,6 +45,7 @@ public abstract class WordLibrary {
      * @return some default implementation of WordLibrary
      */
     public static WordLibrary getDefault() {
+        //return StaticWordLibrary.DEFAULT;
         return StaticWordLibrary.DEFAULT;
     }
 
